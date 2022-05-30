@@ -142,7 +142,8 @@ button {
 .hero-bgn {
   background-color: var(--bgn-color);
   text-align: center;
-  padding: 200px 452px 280px;
+  padding-top: 200px;
+  padding-bottom: 200px;
 }
 
 .hero-title {
@@ -273,6 +274,11 @@ button {
   color: var(--second-text);
 }
 
+.team-title-name,
+.team-position {
+  text-align: center;
+}
+
 .team-list {
   display: flex;
   margin-top: 50px;
@@ -316,13 +322,20 @@ button {
 .projects-list-btn {
   display: flex;
   /*padding-top: 94px;*/
-  padding-bottom: 34px;
+  margin-bottom: 50px;
   justify-content: center;
+}
+
+.projects-item-nav {
+  margin-right: 8px;
+}
+
+.projects-item-nav:last-child {
+  margin-right: 0;
 }
 
 .projects-list-nav {
   padding: 6px 22px;
-  margin-right: 8px;
   font-family: inherit;
   font-style: normal;
   font-weight: 500;
@@ -364,6 +377,13 @@ button {
   margin-right: -30px;
 }
 
+.projects-text {
+  border-right: 1px solid #eeeeee;
+  border-bottom: 1px solid #eeeeee;
+  border-left: 1px solid #eeeeee;
+  padding: 24px 24px 20px 24px;
+}
+
 .projects-item {
   /*border: 1px solid #eeeeee;*/
   margin-right: 30px;
@@ -376,13 +396,7 @@ button {
 }
 
 .work-list-title {
-  padding: 20px 24px 4px 24px;
-}
-
-.portfolio-small-text {
-  padding-right: 24px;
-  padding-bottom: 20px;
-  padding-left: 24px;
+  margin-bottom: 4px;
 }
 
 /*----------------------------FOOTER----------------*/
@@ -450,12 +464,12 @@ button {
 }
 
 .contacts-city {
-  padding-bottom: 9px;
+  margin-bottom: 9px;
 }
 
 .contacts-mail {
   display: block;
-  padding-bottom: 9px;
+  margin-bottom: 9px;
 }
 
 .contacts-tel {
